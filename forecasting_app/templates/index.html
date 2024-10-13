@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charts Display</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Image 1: Monthly Totals -->
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='charts/monthly_totals.png') }}" alt="Monthly Totals Chart" width="400">
+            <p>Monthly Totals</p>
+        </div>
+
+        <!-- Image 2: Daily Receipts -->
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='charts/daily_receipts.png') }}" alt="Daily Receipts Chart" width="400">
+            <p>Daily Receipts</p>
+        </div>
+    </div>
+
+</body>
+</html>
