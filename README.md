@@ -18,9 +18,9 @@ This project is a forecasting web application that can be ran with Docker.
    ```
 
 3. **View Website**
-   Go on your favorite browser and type http://127.0.0.1:5000/ to view the predictions
+   Using your favorite browser and type http://127.0.0.1:5000/ to view the predictions
 
-4. **Why did I jsut use a linear model?**
+4. **Why a linear model?**
 The `Fetch2024Investigations.ipynb` shows my thought process analyzing the data.
 What I found was:
 
